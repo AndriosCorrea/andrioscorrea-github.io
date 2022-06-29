@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Tiro+Devanagari+Marathi&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -54,7 +55,7 @@ p{
    align-items: center;
     color: white;
     line-height: 37px;
-    width: 300px;
+    
     margin-top: 80px;
 }
 .button-banner{
@@ -96,38 +97,54 @@ p{
     align-items: center;
     justify-items: flex-end;
     margin-bottom: 70px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 @media (min-width:820px){
     .banner{
         background-size: cover;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
     }
     h1{
         font-size: 80px;
-       
         text-align: center;
         font-weight: 900;
+        line-height: 80px;
     }
     p{
         font-size: 40px;
-        margin-left: 40px;
+       
          
     }
+    .banner{
+         justify-content:center;
+         align-items: flex-start;
+         
+       
+    }
     .text-banner{
-        margin: 0px;
+        margin: 80px;
+       
+    }
+    .text-home{
+        display:none;
+       
     }
     .button-banner{
         width: 400px;
-        margin-left: 65px;
         padding: 10px;
         font-size: 20px;
         font-weight: bold;
         color: #231f20;
     }
-    .skull{
-        trans: ;
+    
+    
+    .skull {
+        display: none;
+        
     }
+   
 
 }
 
