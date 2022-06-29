@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+}
+body{
+    /* background-color:#231f20; */
+}
+header{
+    display: flex;
+    background-color: #231f20;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+   
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+header nav .menu{
+    display:none;
+}
+@media (min-width:820px) {
+     header nav .menu{
+        display: block;
+     }
+     header nav .menu-hamburguer{
+        display:none;
+     }
+    
+}
+
+.logo{
+width: 100px;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+  
+}
+p{
+    text-shadow:0.2em 0.1em 0.2em #231f20;
+}
+.text-banner{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    color: white;
+    line-height: 37px;
+    width: 300px;
+    margin-top: 80px;
+}
+.button-banner{
+    width:300px;
+    background-color: rgb(221, 171, 6);
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.banner{
+    background-image: url(/img/book-in-library-with-open-textbook.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items:center; 
+    justify-content: space-evenly;
+    flex-direction: column; 
+    background-attachment: scroll;
+   
+    
+    
+}
+.skull{
+    width: 300px;
+    opacity: 0.1;
+    margin-bottom: 30px;
+}
+.skull:hover{
+    transform: scale(2);
+    transition: ease-in-out;
+}
+
+
+.text-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-end;
+    margin-bottom: 70px;
+}
+@media (min-width:820px){
+    .banner{
+        background-size: cover;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    h1{
+        font-size: 80px;
+       
+        text-align: center;
+        font-weight: 900;
+    }
+    p{
+        font-size: 40px;
+        margin-left: 40px;
+         
+    }
+    .text-banner{
+        margin: 0px;
+    }
+    .button-banner{
+        width: 400px;
+        margin-left: 65px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #231f20;
+    }
+    .skull{
+        trans: ;
+    }
+
+}
+
