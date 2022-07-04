@@ -225,7 +225,14 @@ strong{
 }
 
 
+.login .menu-style-login:hover{
 
+    background-color:rgb(75, 3, 3) ;
+    }
+    .cadastro-botao{
+        text-decoration: none;
+        color:white;
+    }
 
 
 

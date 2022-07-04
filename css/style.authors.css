@@ -154,6 +154,14 @@ width: 100px;
     border-radius: 100%;
 
 }
+.login .menu-style-login:hover{
+
+    background-color:rgb(75, 3, 3) ;
+    }
+    .cadastro-botao{
+        text-decoration: none;
+        color:white;
+    }
 @media (min-width:820px) {
     .author-section{
         

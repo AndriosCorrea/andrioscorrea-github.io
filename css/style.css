@@ -49,8 +49,14 @@ main, body{
 .menu-style{
    font-size: larger;
    font-weight: bold;
-  
+   transition: font-size 0.5s;
+
+
    
+}
+.menu-style:hover{
+    font-size:30px;
+    color: rgb(184, 8, 8);
 }
 header nav .menu{
     display:none;
@@ -71,10 +77,21 @@ nav{
     border-radius: 5px;
     font-size: 13px;
     color: white;
-    cursor:pointer
+    cursor:pointer;
+    
+    
     
     
 }
+.login .menu-style-login:hover{
+
+background-color:rgb(75, 3, 3) ;
+}
+.cadastro-botao{
+    text-decoration: none;
+    color:white;
+}
+
 @media (min-width:820px) {
      header nav .menu{
         display: flex;
@@ -137,6 +154,10 @@ h1{
     color: white;
     font-size: 20px;
     cursor:pointer
+}
+.banner-botao{
+    text-decoration: none;
+    color: white;
 }
 
 .banner{
